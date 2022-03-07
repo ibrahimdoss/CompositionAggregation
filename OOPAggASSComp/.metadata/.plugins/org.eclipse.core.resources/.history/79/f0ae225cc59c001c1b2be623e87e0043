@@ -1,0 +1,9 @@
+package computer;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Resolution resolution = new Resolution(1920, 1080);
+	}
+}

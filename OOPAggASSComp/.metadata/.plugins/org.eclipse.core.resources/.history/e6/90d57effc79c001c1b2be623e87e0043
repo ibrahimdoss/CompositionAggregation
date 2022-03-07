@@ -1,0 +1,12 @@
+package computer;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Resolution resolution = new Resolution(1920, 1080);
+		Monitor monitor = new Monitor("V1234", "Vestel", "25", resolution);
+		Kasa kasa = new Kasa("Blade", "Cam");
+		
+	}	
+}

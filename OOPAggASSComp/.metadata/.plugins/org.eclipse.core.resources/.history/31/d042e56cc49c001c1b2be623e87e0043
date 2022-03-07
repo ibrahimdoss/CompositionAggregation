@@ -1,0 +1,12 @@
+package computer;
+
+public class Resolution {
+
+	private int en;
+	private int boy;
+	public Resolution(int boy, int en) {
+		super();
+		this.boy = boy;
+		this.en  = en;
+	}
+}

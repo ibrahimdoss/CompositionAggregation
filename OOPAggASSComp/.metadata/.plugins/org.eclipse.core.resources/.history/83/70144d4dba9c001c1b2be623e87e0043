@@ -1,0 +1,9 @@
+package compositionExample.home;
+
+public enum Notes {
+	
+	//TODO Ev ile mutfak classları birbirine has-a bağlantılıdır. Yani java'da işlem yaptığımız 
+	sınıfta diğer sınıfa ait nesneleri kullanabilmemizi sağlıyor. Diğer sınıfta o nesne için hangi
+	özellikleri belirttiysek, işlem yaptığımız sınıfta da nesnenin aynı özelliklerini 
+	kullanabilmemizi kolaylaştıracaktır.
+}

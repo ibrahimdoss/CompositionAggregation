@@ -1,0 +1,7 @@
+package school;
+
+public enum Notes {
+	
+	Bir üniversitenin birden fazla koleji olabilir. Dolayısıyla bir üniversite kalıcı olarak kapatılırsa
+	o üniversitedeki 
+}

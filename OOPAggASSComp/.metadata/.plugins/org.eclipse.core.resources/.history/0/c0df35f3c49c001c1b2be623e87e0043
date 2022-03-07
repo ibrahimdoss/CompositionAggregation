@@ -1,0 +1,7 @@
+package computer;
+
+public class Bilgisayar {
+	
+	private Monitor monitor;
+
+}

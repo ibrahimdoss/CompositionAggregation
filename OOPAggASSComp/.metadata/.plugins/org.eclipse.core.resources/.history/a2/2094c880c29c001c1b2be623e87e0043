@@ -1,0 +1,9 @@
+package computer;
+
+public class Anakart {
+	
+	private String model;
+	private String uretici;
+	private int yuva_sayisi;
+	private String isletim_sistemi;
+}

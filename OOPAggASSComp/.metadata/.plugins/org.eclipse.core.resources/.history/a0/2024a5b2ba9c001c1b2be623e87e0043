@@ -1,0 +1,55 @@
+package compositionExample.home;
+
+public class Mutfak {
+	
+	private int TabakSayisi;
+	private String BeyazEsya;
+	private String BeyazEsyaMarkasi;
+	
+	public Mutfak(int tabakSayisi, String beyazEsya, String beyazEsyaMarkasi) {
+		super();
+		TabakSayisi = tabakSayisi;
+		BeyazEsya = beyazEsya;
+		BeyazEsyaMarkasi = beyazEsyaMarkasi;
+	}
+	
+	
+	public void BilgileriGoster() {
+		
+		System.out.println("Tabak sayısı : " + this.TabakSayisi);
+		System.out.println("Beyaz Esya Türü : " + this.BeyazEsya);
+		System.out.println("Beyaz Esya Markası : " + this.BeyazEsyaMarkasi);
+
+	}
+
+
+	public int getTabakSayisi() {
+		return TabakSayisi;
+	}
+
+
+	public void setTabakSayisi(int tabakSayisi) {
+		TabakSayisi = tabakSayisi;
+	}
+
+
+	public String getBeyazEsya() {
+		return BeyazEsya;
+	}
+
+
+	public void setBeyazEsya(String beyazEsya) {
+		BeyazEsya = beyazEsya;
+	}
+
+
+	public String getBeyazEsyaMarkasi() {
+		return BeyazEsyaMarkasi;
+	}
+
+
+	public void setBeyazEsyaMarkasi(String beyazEsyaMarkasi) {
+		BeyazEsyaMarkasi = beyazEsyaMarkasi;
+	}
+	
+}

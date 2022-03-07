@@ -1,0 +1,19 @@
+package computer;
+
+public class Kasa {
+	
+	private String model;
+	private String uretici;
+	private String malzeme;
+	
+	public Kasa(String model, String uretici) {
+		super();
+		this.model = model;
+		this.uretici = uretici;
+	}
+	
+	public void bilgisayariAc() {
+		System.out.println("Bilgisayar Aciliyor...");
+	}
+
+}

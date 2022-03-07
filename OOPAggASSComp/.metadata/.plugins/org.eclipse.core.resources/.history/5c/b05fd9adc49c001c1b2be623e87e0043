@@ -1,0 +1,10 @@
+package computer;
+
+public class Monitor {
+	
+	private String model;
+	private String uretici;
+	private String boyut;
+	private Resolution resolution, //composition
+
+}
